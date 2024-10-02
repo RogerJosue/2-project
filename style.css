@@ -453,6 +453,8 @@ justify-content: center;
  display: flex;
  flex-direction: column;
  text-align: center;
+ justify-content: center;
+ align-items: center;
 }
 
 .pp-h1 {
@@ -561,10 +563,193 @@ justify-content: center;
 
 
 .Contact-Page{
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
-    background-color: #a28089;
+    background-color:  #a0d2eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-cp {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Con-title {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-h1-r{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 170px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.t-h2-a{
+    position: relative;
+    z-index: 1; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.info {
+    height: 70%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-one-info {
+    height: 30%;
+    width:85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    gap: 30px;
+}
+
+.div-one-info p{
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.div-two-info {
+    height: 30%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-three-info {
+    height: 30%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form {
+height: 70%;
+width: 70%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container-form {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.C-f {
+    height: 10%;
+    width: 70%;
+    background-color: #e5eaf5;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+.C-f-1 {
+    height: 30%;
+    width: 70%;
+    background-color: #e5eaf5;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.link-form {
+    text-decoration: none;
+
+}
+
+.li-1 {
+    height: 10%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.con-btn{
+ height: 10%;
+ width: 70%;
+ display: flex;
+ align-items: flex-start;
 }
 
 
+.btn-1 {
+    width: 100px;
+    height: 50px;
+    background-color:  #A3C1D1;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    border: 0cap;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
 
+  .btn-1:hover, .btn-1:focus, .btn-1:active {
+    background-color: #039BE5;
+    transform: scale(1.05);
+  }
+
+
+
+.footer {
+height: 50%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #333333;
+}
+
+.container-foot {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.con-p-f-div {
+    height: 30%;
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+
+.f-a {
+ color: white;
+}
