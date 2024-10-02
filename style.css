@@ -144,45 +144,58 @@ align-items: center;
 }
 
 .b-1 {
-    height: 55%;
+    height: 60%;
     width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 120px;
+    gap: 150px;
     text-align: center;
-    background-image: url("./images/sec-num1.png");
-    background-size: cover;
+    background-image: url("./images/one-realone.jpeg");
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: blue;
-
+    filter: contrast(1.2) brightness(1.1);
+    mix-blend-mode: multiply;
+    color: black;
 }
 
 .b-1-2 {
-    height: 55%;
+    height: 60%;
     width: 20%;
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 90px;
+    gap: 150px;
     text-align: center;
+    background-image: url("./images/numtwo.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: contrast(1.2) brightness(1.1);
+    mix-blend-mode: multiply;
+    color: black;
 
 }
 
 .b-1-3 {
-    height: 55%;
+    height: 60%;
     width: 20%;
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 90px;
+    gap: 150px;
     text-align: center;
+    background-image: url("./images/numthree.png");
+    background-size: 48%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: contrast(1.2) brightness(1.1);
+    mix-blend-mode: multiply;
+    color: black;
 
 }
 
@@ -191,7 +204,7 @@ height: 50%;
 width: 100%;
 display: flex;
 justify-content: space-evenly;
-align-items: flex-start;
+align-items: center;
 }
 
 .sm-container-2 h1{
@@ -201,41 +214,59 @@ align-items: flex-start;
 }
 
 .b-2-1 {
-    height: 55%;
+    height: 60%;
     width: 20%;
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 90px;
+    gap: 150px;
     text-align: center;
-
+    background-image: url("./images/numfour.png");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: contrast(1.2) brightness(1.1);
+    mix-blend-mode: multiply;
+    color: black;
 }
 
 .b-2-2 {
-    height: 55%;
+    height: 60%;
     width: 20%;
-    background-color: blue;
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 90px;
+    gap: 150px;
     text-align: center;
+    background-image: url("./images/numfive.png");
+    background-size: 23%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: contrast(1.2) brightness(1.1);
+    mix-blend-mode: multiply;
+    color: black;
 
 }
 
 .b-2-3 {
-    height: 55%;
+    height: 60%;
     width: 20%;
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 90px;
+    gap: 150px;
     text-align: center;
+    background-image: url("./images/numsix.png");
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: contrast(1.2) brightness(1.1);
+    mix-blend-mode: multiply;
+    color: black;
 
 }
 
