@@ -391,14 +391,149 @@ display: flex;
 }
 
 
+/* this is when why us finish  */
+
 .Partners-Page {
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
     background-color: #8458B3
 }
+
+
+.pp-top {
+ height: 50%;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.pp-left-txt {
+height: 100%;
+width: 70%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container-pp{
+ height: 60%;
+ width: 85%;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+}
+
+.pp-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pp-p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-top: 20px;
+}
+
+.div-b-pp {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.b-pp {
+    width: 100px;
+    height: 50px;
+    background-color: #4FC3F7;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    border: 0cap;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .b-pp:hover, .b-pp:focus, .b-pp:active {
+    background-color: #039BE5;
+    transform: scale(1.05);
+  }
+
+
+.pp-right-img {
+ height: 100%;
+ width: 30%;
+}
+
+.pp-bottom{
+ height: 50%;
+ width: 100%; 
+}
+
+.txt-pp-b-t {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h1-txt-pp {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.p-txt-pp {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.img-pp-b-b {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.img-pp {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-pp{
+    mix-blend-mode: multiply;
+    opacity: 0.34;
+
+}
+
 
 .Contact-Page{
     height: 100vh;
     width: 100vw;
     background-color: #a28089;
 }
+
+
+
